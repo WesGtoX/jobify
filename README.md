@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/WesGtoX/jobify">
-     <img src="public/images/logo.png" alt="Jobify" title="Jobify" width="500px">
+     <img src="public/images/logo.png" alt="Jobify" title="Jobify" width="300px">
    </a>
 </p>
 
