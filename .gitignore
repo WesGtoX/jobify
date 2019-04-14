@@ -98,4 +98,4 @@ typings/
 
 ### Database
 # Ignore all database
-*.sqlite
+# *.sqlite
