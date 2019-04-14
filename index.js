@@ -5,12 +5,13 @@ const bodyParser = require('body-parser')
 const path = require('path')
 
 const sqlite = require('sqlite')
-const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite', { Promise }))
+const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite'), { Promise })
 
 const port = process.env.PORT || 3000
 
+app.set('viwes', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname,'public')))
 app.use(bodyParser.urlencoded({ extended: true }))
 
 
