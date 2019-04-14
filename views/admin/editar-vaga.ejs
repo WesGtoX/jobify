@@ -11,9 +11,8 @@
             <textarea name="descricao"><%= vaga.descricao %></textarea>
             <label>Categoria:</label>
             <select name="categoria">
-                <option>---</option>
                 <% categorias.forEach( categoria => { %>
-                <option value="<%= categoria.id %>" <% if (categoria.id == vaga.categoria) { %>selected<% } %><% categoria.categoria %>><%= categoria.categoria %></option>
+                <option value="<%= categoria.id %>" <% if(categoria.id == vaga.categoria){ %>selected<% } %>><%= categoria.categoria %></option>
                 <% }) %>
             </select>
             <button>Salvar</button>
