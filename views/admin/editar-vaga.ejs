@@ -16,7 +16,8 @@
                 <option value="<%= categoria.id %>" <% if (categoria.id == vaga.categoria) { %>selected<% } %><% categoria.categoria %>><%= categoria.categoria %></option>
                 <% }) %>
             </select>
-            <button>Salvar Vaga</button>
+            <button>Salvar</button>
+            <button onCLick="history.forward()">Voltar</button>
         </form>
     </div>
 <%- include('footer') %>

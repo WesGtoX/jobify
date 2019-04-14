@@ -16,7 +16,8 @@
                 <option value="<%= categoria.id %>"><%= categoria.categoria %></option>
                 <% }) %>
             </select>
-            <br><button>Salvar Vaga</button>
+            <button>Salvar</button>
+            <button onCLick="history.forward()">Voltar</button>
         </form>
     </div>
 <%- include('footer') %>
