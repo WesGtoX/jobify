@@ -13,6 +13,7 @@
   "author": "Wesley Mendes",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "sqlite": "^3.0.3"
