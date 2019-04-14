@@ -88,7 +88,7 @@ app.get('/admin/categoria/nova', async(req, res) => {
 app.post('/admin/categoria/nova', async(req, res) => {
     const { categoria } = req.body
     const db = await dbConnection
-    await db.run(`insert into categorias(categoria) values(${categoria})`)
+    await db.run(`insert into categorias(categoria) values('${categoria}')`)
     res.redirect('/admin/categorias')
 })
 
@@ -144,7 +144,7 @@ const init = async() => {
     // await db.run(`insert into categorias(categoria) values('${categoria}')`)
     // const vaga = 'Social Media (San Francisco)'
     // const descricao = 'Vaga para fullstack developer que fez o Fullstack Lab'
-    //await db.run(`insert into vagas(categoria, titulo, descricao) values(2, '${vaga}', '${descricao}')`)
+    // await db.run(`insert into vagas(categoria, titulo, descricao) values(2, '${vaga}', '${descricao}')`)
 }
 init()
 
