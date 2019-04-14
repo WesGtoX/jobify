@@ -1,6 +1,7 @@
 /*
     color: #5c0970
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +20,7 @@ h1, p {
 h2 {
     background-color: #C4C4C4;
     padding: 8px;
-    margin: 10px;
+    margin: 10px 0 10px -10px;
     font-size: 24;
 }
 
@@ -58,8 +59,12 @@ textarea {
 }
 
 div.body-content {
-    margin-left: 10px;
+    margin-left: 20px;
     padding-bottom: 60px;
+}
+
+.white-space-pre {
+    white-space: pre-wrap;
 }
 
 /* FOOTER */
