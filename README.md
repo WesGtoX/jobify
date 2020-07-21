@@ -72,7 +72,7 @@ yarn start
 
 ## Roadmap
 
-See the [open issues](https://github.com/WesGtoX/PROJECT_NAME/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/WesGtoX/jobify/issues) for a list of proposed features (and known issues).
 
 
 ## How to contribute
@@ -94,4 +94,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE.md) for more informatio
 
 ---
 
-Made with ♥ by [Wesley Mendes](https://wesleymends.com.br/) :wave:
+Made with ♥ by [Wesley Mendes](https://wesleymendes.com.br/) :wave:
