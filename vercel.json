@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "alias": [
-        "jobify.wesleymendes.com.br", 
-        "www.jobify.wesleymendes.com.br",
-        "jobify.wesleymends.com.br", 
-        "www.jobify.wesleymends.com.br"
-    ],
     "builds":[
         { "src": "index.js", "use": "@now/node-server" }
     ],
